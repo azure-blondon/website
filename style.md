@@ -1,54 +1,53 @@
 # Testing a new style?
 
-This is a paragraph of text. It has **bold**, *italic*, and `inline code` in it.
-Here is a [link to somewhere](/).
+Let me help you with that!
 
-## A second heading
+Just read these **simple** lines that *bend* under your `beautiful browser`, and you'll soon discover [the truth](/style).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua.
+> **shhhh**, don't tell ***anyone***.
 
-### A third heading
+## I'll tell you something
 
-> This is a blockquote. I'm pretty sure someone said something wise here once.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt arcu ut velit egestas, molestie volutpat ante placerat. Sed tincidunt rutrum lectus vel **vehicula**. Pellentesque habitant **morbi tristique** senectus et netus et malesuada fames ac turpis egestas. Nulla a mattis ***justo***. Donec sit amet ipsum nec elit consectetur facilisis. Nullam blandit urna nec nibh placerat, non malesuada sapien tincidunt. Curabitur vehicula est *egestas pharetra* sodales. Donec vulputate risus eu tempor sagittis. Praesent lacinia porta ex, at pulvinar augue. In auctor eu enim id malesuada.
+
+---
+
+So, what do you think?
+
+### Not sure yet?
+
+It's ok to be unsure, but let me cook:
 
 ## Code
 
-Here is some inline code: `int x = 42;`
+Maybe a bit of *C* code will help: `int amountOfTimesIveFailedToRegogniseColours = 1609;`
 
-And a code block:
+---
+
+Maybe a bit of rust?
 
 ```rust
-fn main() {
-    println!("Hello, world!");
+pub fn is_it_snowing_in_my_hometown() -> bool {
+    // that would be amazing
+    // but no
+    !true
 }
 ```
 
+---
+
+It's ok to admit mistakes.
+
 ## Lists
 
-Unordered:
+Code isn't *your thing*, what about ***a nice collection of elements***?
 
-- First item
-- Second item
-- Third item
+- Ace of **Spades**
+- Queen of **Hearts**
+- Joker (the **colored** one)
 
-Ordered:
+What about ***a nicely ordered collection of elements***?
 
-1. First step
-2. Second step
-3. Third step
-
-## Separating content
-
----
-
-## a bit of everything
-
-This paragraph has **bold**, *italic*, and even ***both at once***.
-It also has some `code` and a [link](/).
-
----
-
-Maybe I have **nice** things to say
-
-> Blockquotes can contain **bold** and *italic* too.
+1. mi sona e ijo
+2. sina lukin e sitelen ni la
+3. pona tawa sina
