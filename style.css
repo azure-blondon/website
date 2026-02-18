@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,10 +7,10 @@
 }
 
 body {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Inconsolata", "Courier New", monospace;
     line-height: 1.7;
-    color: #ffffff;
-    background: #00008b;
+    color: #e8e8e8;
+    background: #1a2a4a;
     padding: 2rem;
 }
 
@@ -36,9 +38,9 @@ p {
 }
 
 a {
-    color: #ffff00;
+    color: #f0d060;
     text-decoration: none;
-    border-bottom: 1px solid #ffff0066;
+    border-bottom: 1px solid #f0d06066;
     transition: opacity 0.2s;
 }
 
@@ -47,17 +49,17 @@ a:hover {
 }
 
 code {
-    font-family: "Courier New", Courier, monospace;
-    background: #0000aa;
+    font-family: "Inconsolata", "Courier New", monospace;
+    background: #152038;
     padding: 0.1em 0.4em;
-    border: 1px solid #ffffff44;
+    border: 1px solid #ffffff22;
     font-size: 0.9em;
 }
 
 pre {
-    background: #0000aa;
-    border: 1px solid #ffffff44;
-    border-left: 3px solid #ffffff;
+    background: #152038;
+    border: 1px solid #ffffff22;
+    border-left: 3px solid #ffffff66;
     padding: 1rem;
     overflow-x: auto;
     margin: 1rem 0;
@@ -70,9 +72,9 @@ pre code {
 }
 
 blockquote {
-    border-left: 3px solid #ffffff88;
+    border-left: 3px solid #ffffff44;
     padding-left: 1rem;
-    color: #cccccc;
+    color: #aabbcc;
     margin: 1rem 0;
     font-style: italic;
 }
@@ -87,24 +89,24 @@ li {
 }
 
 li::marker {
-    color: #ffff00;
+    color: #f0d060;
 }
 
 hr {
     border: none;
-    border-top: 1px solid #ffffff44;
+    border-top: 1px solid #ffffff22;
     margin: 2rem 0;
 }
 
 img {
     max-width: 100%;
-    border: 1px solid #ffffff44;
+    border: 1px solid #ffffff22;
 }
 
 strong {
-    color: #ffff00;
+    color: #f0d060;
 }
 
 em {
-    color: #ccccff;
+    color: #aabbcc;
 }
