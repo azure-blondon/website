@@ -1,6 +1,6 @@
 # hi!
 
-
+here are some [things](/things/)
 
 
 
