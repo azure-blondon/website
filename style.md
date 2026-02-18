@@ -38,13 +38,17 @@ Ordered:
 2. Second step
 3. Third step
 
-## Horizontal rule
+## Separating content
 
 ---
 
-## Mixed
+## a bit of everything
 
 This paragraph has **bold**, *italic*, and even ***both at once***.
 It also has some `code` and a [link](/).
+
+---
+
+Maybe I have **nice** things to say
 
 > Blockquotes can contain **bold** and *italic* too.
