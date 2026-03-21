@@ -13,7 +13,33 @@ async function loadPage() {
     }
     
     const markdown = await response.text();
-    document.getElementById('content').innerHTML = render(markdown);
+    const contentEl = document.getElementById('content');
+    contentEl.innerHTML = render(markdown);
+
+    await executeScripts(contentEl);
+}
+
+async function executeScripts(container) {
+    const scripts = container.querySelectorAll('script');
+    
+    for (const oldScript of scripts) {
+        const newScript = document.createElement('script');
+        
+        for (const attr of oldScript.attributes) {
+            newScript.setAttribute(attr.name, attr.value);
+        }
+        
+        if (oldScript.src) {
+            await new Promise((resolve, reject) => {
+                newScript.onload = resolve;
+                newScript.onerror = reject;
+                oldScript.replaceWith(newScript);
+            });
+        } else {
+            newScript.textContent = oldScript.textContent;
+            oldScript.replaceWith(newScript);
+        }
+    }
 }
 
 loadPage();

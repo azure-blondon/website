@@ -20,8 +20,7 @@ showLobbyScreen();
 
 
 
-
-function start() {
+window.onload = () => {
     console.log("hi, from le chat sauvage");
     const savedRoom = localStorage.getItem('room');
     const savedUser = localStorage.getItem('username');
@@ -36,7 +35,6 @@ function start() {
         listRooms();
     }
 };
-window.onload = start;
 
 
 
