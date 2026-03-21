@@ -18,10 +18,10 @@ let lastPolygonLayer = null;
 showLobbyScreen();
 
 
+console.log("hi, from le chat sauvage");
 
 
 window.onload = () => {
-    console.log("hi, from le chat sauvage");
     const savedRoom = localStorage.getItem('room');
     const savedUser = localStorage.getItem('username');
     
