@@ -13,9 +13,10 @@ async function loadPage() {
     }
     
     const markdown = await response.text();
-    document.body.innerHTML = render(markdown);
+    const contentEl = document.getElementById('content');
+    contentEl.innerHTML = render(markdown);
 
-    await executeScripts(document.body);
+    await executeScripts(contentEl);
 }
 
 async function executeScripts(container) {
