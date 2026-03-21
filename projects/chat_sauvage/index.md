@@ -1,3 +1,3 @@
 <div id="app"></div>
 
-<script src="app.js"></script>
+<script src="/static/chat_sauvage/app.js"></script>
