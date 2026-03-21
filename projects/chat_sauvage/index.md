@@ -1,3 +1,3 @@
-<div id="content"></div>
+<div id="app"></div>
 
 <script src="app.js"></script>

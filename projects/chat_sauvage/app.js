@@ -39,7 +39,7 @@ window.onload = () => {
 
 
 function showLobbyScreen() {
-    document.getElementById('content').innerHTML = `
+    document.getElementById('app').innerHTML = `
     <div id="lobbyScreen">
     <h2>Lobby</h2>
     <div class='status' style="justify-content: center; align-items: center;">
@@ -67,7 +67,7 @@ function showLobbyScreen() {
 }
 
 function showRoomScreen() {
-    document.getElementById('content').innerHTML = `
+    document.getElementById('app').innerHTML = `
     <div id="roomScreen">
     <h2>In Room: <span id="currentRoomCode"></span></h2>
     
