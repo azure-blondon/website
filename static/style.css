@@ -110,3 +110,26 @@ strong {
 em {
     color: #aabbcc;
 }
+
+button {
+    background: #f0d060;
+    color: #1a2a4a;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-family: "Inconsolata", "Courier New", monospace;
+    margin-top: 1em;
+    transition: background 0.2s;
+    border-radius: 4px;
+}
+button:hover {
+    background: #fff;
+}
+button:active {
+    background: #fff;
+}
+
+button:disabled {
+    background: #f0d06044;
+    cursor: not-allowed;
+}
